@@ -1,0 +1,100 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset CSS */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    overflow-wrap: break-word;
+}
+
+img, video, canvas, svg{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* General Styling */
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --card-bg-clr: #f5f5f5;
+    /* Fonts */
+    --ff-main: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    font-family: var(--ff-main);
+    background-color: var(--Dark-cyan);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    display: grid;
+    width: 100%;
+    background-color: var(--card-bg-clr);
+    border-radius: 1rem;
+    position: relative;
+}
+
+.card__bg-pattern{
+    position: relative;
+}
+
+.card__bg-pattern{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.card__profile{
+    border-radius: 50%;
+    border: 7px solid white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-details{
+    display: grid;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.card__description{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top: 1rem;
+}
+
+span{
+    font-weight: 500;
+}
+
+.London{
+    font-size: 1rem;
+}
