@@ -47,6 +47,9 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
 
 .card{
@@ -96,5 +99,9 @@ span{
 }
 
 .London{
+    font-size: 1rem;
+}
+
+h2{
     font-size: 1rem;
 }
