@@ -13,7 +13,7 @@ HTML
 CSS
 
 ## Live Demo
-A live demo of the solution can be found here.
+A live demo of the solution can be found [here.](https://ratified.github.io/Profile-Card-Component/)
 
 ## Learnings
 CSS flexbox for layout
