@@ -25,3 +25,5 @@ CSS styling and positioning
 ## Credits
 Design and challenge by Frontend Mentor
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ratified/Profile-Card-Component)
+
